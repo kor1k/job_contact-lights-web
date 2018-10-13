@@ -24,6 +24,7 @@ body {
     background-image: url("../images/bg-contact.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .nav_bar_top {
@@ -71,7 +72,7 @@ body {
 }
 
 .video {
-    padding-top: 100px;
+    padding-top: 300px;
     padding-bottom: 150px;
 }
 
@@ -199,13 +200,13 @@ body {
 }
 
 /*.tabs__caption .active:after {*/
-    /*content: '>';*/
-    /*position: absolute;*/
-    /*bottom: -5px;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*height: 5px;*/
-    /*background: #FFF;*/
+/*content: '>';*/
+/*position: absolute;*/
+/*bottom: -5px;*/
+/*left: 0;*/
+/*right: 0;*/
+/*height: 5px;*/
+/*background: #FFF;*/
 /*}*/
 
 .tabs__content {
@@ -221,44 +222,44 @@ body {
 }
 
 /*.vertical .tabs__caption {*/
-    /*float: left;*/
-    /*display: block;*/
+/*float: left;*/
+/*display: block;*/
 /*}*/
 
 /*.vertical .tabs__caption li {*/
-    /*float: none;*/
-    /*border-width: 2px 0 2px 2px;*/
-    /*border-radius: 5px 0 0 5px;*/
+/*float: none;*/
+/*border-width: 2px 0 2px 2px;*/
+/*border-radius: 5px 0 0 5px;*/
 /*}*/
 
 /*.vertical .tabs__caption li:last-child:before {*/
-    /*display: none;*/
+/*display: none;*/
 /*}*/
 
 /*.vertical .tabs__caption .active:after {*/
-    /*left: auto;*/
-    /*top: 0;*/
-    /*right: -2px;*/
-    /*bottom: 0;*/
-    /*width: 2px;*/
-    /*height: auto;*/
+/*left: auto;*/
+/*top: 0;*/
+/*right: -2px;*/
+/*bottom: 0;*/
+/*width: 2px;*/
+/*height: auto;*/
 /*}*/
 
 /*.vertical .tabs__content {*/
-    /*overflow: hidden;*/
+/*overflow: hidden;*/
 /*}*/
 
 /*.tabs_text {*/
-    /*color: #777777;*/
-    /*font-size: 18px; !* Приближение из-за подстановки шрифтов *!*/
-    /*font-weight: 300;*/
+/*color: #777777;*/
+/*font-size: 18px; !* Приближение из-за подстановки шрифтов *!*/
+/*font-weight: 300;*/
 /*}*/
 
 /*.tabs__caption__centered {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*padding-right: 45px;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*padding-right: 45px;*/
 /*}*/
 
 .vinyl-img-in-tabs {
@@ -266,5 +267,7 @@ body {
     height: 300px;
 }
 
-
-
+.tabs__caption__centered {
+    display: flex;
+    justify-content: center;
+}
