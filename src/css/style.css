@@ -188,7 +188,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     list-style: none;
-    position: relative;
+    /*position: relative;*/
     margin: -1px 0 0 -1px;
 }
 
@@ -204,7 +204,7 @@ body {
 /*}*/
 
 .tabs__caption:after {
-    content: '';
+    content: '>';
     display: table;
     clear: both;
 }
@@ -212,7 +212,7 @@ body {
 .tabs__caption li {
     padding: 15px 15px;
     margin: 1px 0 0 1px;
-    background-color: #18cfab;
+    /*background-color: #18cfab;*/
     color: #FFF;
     position: relative;
     /*border: solid lightcyan;*/
