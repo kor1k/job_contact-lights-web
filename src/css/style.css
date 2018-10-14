@@ -9,6 +9,16 @@
     margin: 0 auto;
 }
 
+.container_gallery {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.container_info_concerts {
+    width: 680px;
+    margin: 0 auto;
+}
+
 .nav_bar_top_logo_img {
     width: 100px;
     height: 70px;
@@ -254,7 +264,6 @@ div.desc {
 }
 
 .gallery {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,37 +277,111 @@ div.desc {
 .gallery-info {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .title {
-    padding-left: 85px;
+    /*padding-left: 85px;*/
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 300px;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
 }
 
-@media only screen and (max-width: 414px) {
-    /*.responsive {*/
-        /*width: 49.99999%;*/
-        /*margin: 6px 0;*/
-    /*}*/
+/*@media only screen and (max-width: 414px) {*/
+/*!*.responsive {*!*/
+/*!*width: 49.99999%;*!*/
+/*!*margin: 6px 0;*!*/
+/*!*}*!*/
 
-    .nav_bar_top {
-        width: 100%;
-        background-color: rgba(5, 1, 4, 0.5);
-        position: fixed;
-        z-index: 999;
-    }
+/*.nav_bar_top {*/
+/*width: 100%;*/
+/*background-color: rgba(5, 1, 4, 0.5);*/
+/*position: fixed;*/
+/*z-index: 999;*/
+/*}*/
 
+/*}*/
+
+/*@media only screen and (max-width: 500px) {*/
+/*.responsive {*/
+/*width: 100%;*/
+/*}*/
+/*}*/
+
+.title-concerts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-weight: 900;
 }
 
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
+.dates-of-concert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    /*font-weight: 900;*/
 }
 
+.info-about-concert {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    text-align: center;
+    /*font-weight: 600;*/
+    color: #ae804e;
+    font-size: 23px;
+    padding-bottom: 130px;
+}
+
+.contacts {
+    padding-bottom: 200px;
+}
+
+.title-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.under-title-contacts {
+    margin: 50px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-size: 23px;
+    color: #ae804e;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    /*width: 100%;*/
+    background-color: rgba(5, 1, 4, 1);
+    /*position: fixed;*/
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
