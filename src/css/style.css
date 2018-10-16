@@ -40,8 +40,10 @@ body {
 .nav_bar_top {
     width: 100%;
     background-color: rgba(5, 1, 4, 0.5);
+    /*background-color: yellow;*/
     position: fixed;
     z-index: 999;
+    height: 75px;
 }
 
 .top_bg_img {
@@ -83,7 +85,7 @@ body {
 }
 
 .video {
-    padding-top: 300px;
+    padding-top: 85px;
     padding-bottom: 150px;
 }
 
@@ -128,6 +130,7 @@ body {
 }
 
 .link-items {
+    margin: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,24 +155,24 @@ body {
     color: white;
 }
 
-.fab:hover, .fa-music:hover {
-    animation: roll 3s infinite;
-    transform: rotate(30deg);
-    opacity: .7;
-}
+/*.fab:hover, .fa-music:hover {*/
+    /*animation: roll 3s infinite;*/
+    /*transform: rotate(30deg);*/
+    /*opacity: .7;*/
+/*}*/
 
-@keyframes roll {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
+/*@keyframes roll {*/
+    /*0% {*/
+        /*transform: rotate(0);*/
+    /*}*/
+    /*100% {*/
+        /*transform: rotate(360deg);*/
+    /*}*/
+/*}*/
 
-.link-items {
-    margin-right: 5px;
-}
+/*.link-items {*/
+    /*margin-right: 5px;*/
+/*}*/
 
 /*///////TABS///////*/
 
@@ -319,6 +322,7 @@ div.desc {
     color: white;
     font-size: 50px;
     padding-bottom: 30px;
+    padding-top: 100px;
     font-weight: 900;
 }
 
@@ -345,6 +349,7 @@ div.desc {
 }
 
 .contacts {
+    padding-top: 70px;
     padding-bottom: 200px;
 }
 
