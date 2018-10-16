@@ -315,6 +315,10 @@ div.desc {
 /*}*/
 /*}*/
 
+.concerts {
+    padding-bottom: 100px;
+}
+
 .title-concerts {
     display: flex;
     justify-content: center;
@@ -325,6 +329,14 @@ div.desc {
     padding-top: 100px;
     font-weight: 900;
 }
+
+.concert-image {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding-right: 50px;
+}
+
 
 .dates-of-concert {
     display: flex;
@@ -338,10 +350,10 @@ div.desc {
 }
 
 .info-about-concert {
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
     /*align-items: center;*/
-    text-align: center;
+    /*text-align: center;*/
     /*font-weight: 600;*/
     color: #ae804e;
     font-size: 23px;
@@ -366,14 +378,24 @@ div.desc {
 .under-title-contacts {
     margin: 50px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     text-align: center;
     font-size: 23px;
     color: #ae804e;
+    font-weight: 600;
+}
+
+.under-title-contacts-info {
+    /*padding-left: 40px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /*font-weight: 800;*/
+    color: white;
 }
 
 .footer {
-
     display: flex;
     justify-content: center;
     height: 100px;
