@@ -14,8 +14,13 @@
     margin: 0 auto;
 }
 
-.container_info_concerts {
-    width: 680px;
+/*.container_info_concerts {*/
+    /*width: 680px;*/
+    /*margin: 0 auto;*/
+/*}*/
+
+.container-video {
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -86,7 +91,7 @@ body {
 
 .video {
     padding-top: 85px;
-    padding-bottom: 150px;
+    /*padding-bottom: 150px;*/
 }
 
 .vinyl {
@@ -233,11 +238,22 @@ body {
     padding-right: 95px;
 }
 
-div.gallery {
+.gallery {
+    margin-top: 50px;
     margin: 35px;
     border: 1px solid #ccc;
     width: 300px;
     height: 300px;
+}
+.gallery-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    font-weight: 900;
 }
 
 div.gallery:hover {
@@ -271,6 +287,7 @@ div.desc {
     justify-content: center;
     align-items: center;
 }
+
 
 .img-1 {
     width: 700px;
