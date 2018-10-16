@@ -14,11 +14,6 @@
     margin: 0 auto;
 }
 
-/*.container_info_concerts {*/
-    /*width: 680px;*/
-    /*margin: 0 auto;*/
-/*}*/
-
 .container-video {
     width: 1400px;
     margin: 0 auto;
@@ -26,7 +21,7 @@
 
 .nav_bar_top_logo_img {
     width: 100px;
-    height: 70px;
+    height: 80px;
 }
 
 .logo-contact-lights {
@@ -45,7 +40,6 @@ body {
 .nav_bar_top {
     width: 100%;
     background-color: rgba(5, 1, 4, 0.5);
-    /*background-color: yellow;*/
     position: fixed;
     z-index: 999;
     height: 75px;
@@ -91,7 +85,6 @@ body {
 
 .video {
     padding-top: 85px;
-    /*padding-bottom: 150px;*/
 }
 
 .vinyl {
@@ -113,7 +106,6 @@ body {
 .specs-vinyl {
     padding-top: 20px;
     display: flex;
-    /*font-size: 14px;*/
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -123,11 +115,6 @@ body {
 .specs-info-vinyl {
     font-size: 16px;
 }
-
-/*.get-in-touch-links {*/
-/*display: flex;*/
-/*justify-content: center;*/
-/*}*/
 
 .links {
     display: flex;
@@ -153,63 +140,27 @@ body {
 }
 
 .fab, .fa-soundcloud, .fa-music {
-    /*transform: rotateX(0.120deg);*/
-    /*animation: roll 3s infinite;*/
-    /*transform: rotate(30deg);*/
-    /*opacity: .7;*/
     color: white;
 }
-
-/*.fab:hover, .fa-music:hover {*/
-    /*animation: roll 3s infinite;*/
-    /*transform: rotate(30deg);*/
-    /*opacity: .7;*/
-/*}*/
-
-/*@keyframes roll {*/
-    /*0% {*/
-        /*transform: rotate(0);*/
-    /*}*/
-    /*100% {*/
-        /*transform: rotate(360deg);*/
-    /*}*/
-/*}*/
-
-/*.link-items {*/
-    /*margin-right: 5px;*/
-/*}*/
-
-/*///////TABS///////*/
 
 .tabs__caption {
     display: flex;
     color: #717171;
-    font-size: 30px; /* Приближение из-за подстановки шрифтов */
+    font-size: 30px;
     padding-left: 100px;
-    font-weight: 400;
-    /*line-height: 40px; !* Приближение из-за подстановки шрифтов *!*/
 }
 
 .tabs__caption li {
     padding: 15px 15px;
     margin: 1px 0 0 1px;
-    /*background-color: #18cfab;*/
     color: #ae804e;
-    /*position: relative;*/
-    /*border: solid lightcyan;*/
     border-width: 2px 2px 0;
-    /*border-radius: 5px 5px 0 0;*/
     text-align: center;
 }
 
 .tabs__caption li:not(.active) {
     cursor: pointer;
 }
-
-/*.tabs__caption li:not(.active):hover {*/
-/*background: #1C1C1C;*/
-/*border-color: #7DCA86;*/
-/*}*/
 
 .tabs__caption .active {
     background: #ae804e;
@@ -245,6 +196,7 @@ body {
     width: 300px;
     height: 300px;
 }
+
 .gallery-title {
     display: flex;
     justify-content: center;
@@ -279,7 +231,6 @@ div.desc {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*padding-bottom: 100px;*/
 }
 
 .gallery {
@@ -287,7 +238,6 @@ div.desc {
     justify-content: center;
     align-items: center;
 }
-
 
 .img-1 {
     width: 700px;
@@ -301,7 +251,6 @@ div.desc {
 }
 
 .title {
-    /*padding-left: 85px;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,26 +260,9 @@ div.desc {
     font-size: 18px;
 }
 
-/*@media only screen and (max-width: 414px) {*/
-/*!*.responsive {*!*/
-/*!*width: 49.99999%;*!*/
-/*!*margin: 6px 0;*!*/
-/*!*}*!*/
-
-/*.nav_bar_top {*/
-/*width: 100%;*/
-/*background-color: rgba(5, 1, 4, 0.5);*/
-/*position: fixed;*/
-/*z-index: 999;*/
-/*}*/
-
-/*}*/
-
-/*@media only screen and (max-width: 500px) {*/
-/*.responsive {*/
-/*width: 100%;*/
-/*}*/
-/*}*/
+.music-sub-title {
+    display: flex;
+}
 
 .concerts {
     padding-bottom: 100px;
@@ -354,24 +286,17 @@ div.desc {
     padding-right: 50px;
 }
 
-
 .dates-of-concert {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     text-align: center;
-    /*font-weight: 900;*/
 }
 
 .info-about-concert {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*text-align: center;*/
-    /*font-weight: 600;*/
     color: #ae804e;
     font-size: 23px;
     padding-bottom: 130px;
@@ -428,4 +353,26 @@ div.desc {
     text-align: center;
     font-size: 20px;
     color: white;
+}
+
+
+
+@media screen and (max-width: 320px){
+    .nav_bar_top {
+        height: 100px;
+    }
+
+    .nav_bar_top_logo_img {
+        display: flex;
+    }
+
+    .nav_bar_top_ul {
+        display: flex;
+    }
+
+    .container-video {
+        width: 400px;
+        /*margin: 0 auto;*/
+    }
+
 }
