@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Contact Lights</title>
     <link rel="stylesheet" href="css/normalize.css">
@@ -9,42 +10,39 @@
           integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
 </head>
 <body>
 
-<div class="nav_bar">
-    <div class="container nav_bar_top">
-        <a href="#"> <img class="nav_bar_top_logo_img" src="images/logo-contact-lights.png"> </a>
-        <ul class="nav_bar_top_ul">
-            <li class="nav_bar_top_li_home"><a href="#" class="nav_bar_top_a_h">HOME</a></li>
-            <li class="nav_bar_top_li"><a href="#about-us-video" class="nav_bar_top_a">ABOUT</a></li>
-            <li class="nav_bar_top_li"><a href="#live" class="nav_bar_top_a">LIVE</a></li>
-            <li class="nav_bar_top_li"><a href="#music" class="nav_bar_top_a">SINGLES</a></li>
-            <li class="nav_bar_top_li"><a href="#" class="nav_bar_top_a">GALLERY</a></li>
-            <li class="nav_bar_top_li"><a href="#" class="nav_bar_top_a">NEWS</a></li>
-            <li class="nav_bar_top_li"><a href="#" class="nav_bar_top_a">CONTACTS</a></li>
-        </ul>
-    </div>
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
+
+<div style="padding-left:16px">
+    <h2>Responsive Topnav Example</h2>
+    <p>Resize the browser window to see how it works.</p>
+</div>
+
+<!--//TODO: need to rebuild header block-->
+<!--<div class="nav_bar">-->
+<!--<div class="container nav_bar_top">-->
+<!--<a href="#"> <img class="nav_bar_top_logo_img" src="images/logo-contact-lights.png"> </a>-->
+<!--<ul class="nav_bar_top_ul">-->
+<!--<li class="nav_bar_top_li_home"><a href="#" class="nav_bar_top_a_h">HOME</a></li>-->
+<!--<li class="nav_bar_top_li"><a href="#about-us-video" class="nav_bar_top_a">ABOUT</a></li>-->
+<!--<li class="nav_bar_top_li"><a href="#live" class="nav_bar_top_a">LIVE</a></li>-->
+<!--<li class="nav_bar_top_li"><a href="#music" class="nav_bar_top_a">SINGLES</a></li>-->
+<!--<li class="nav_bar_top_li"><a href="#" class="nav_bar_top_a">GALLERY</a></li>-->
+<!--<li class="nav_bar_top_li"><a href="#" class="nav_bar_top_a">NEWS</a></li>-->
+<!--<li class="nav_bar_top_li"><a href="#" class="nav_bar_top_a">CONTACTS</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
 
 <div class="container-video video" id="about-us-video">
     <div style="padding:56.25% 0 0 0;position:relative;">
@@ -138,7 +136,7 @@
 <!--//TODO: need to build new singles-block (aka gallery) -->
 
 
-<div class="container concerts" id="live">
+<div class="concerts" id="live">
     <div class="title-concerts">LIVE</div>
     <div class="dates-of-concert">01/11/2018<br>19:00</div>
     <img class="concert-image" src="images/concert-img.jpg" alt="">
@@ -155,7 +153,7 @@
 <div class="container contacts">
     <div class="title-contacts">CONTACTS</div>
     <div class="under-title-contacts">Telegram:</div>
-    <a class="under-title-contacts-info" href="tg://resolve?domain=@soon">soon</a>
+    <a class="under-title-contacts-info" href="tg://resolve?domain=@">soon</a>
     <!--<div class="under-title-contacts-info">@yarik_bochok</div>-->
 
     <div class="under-title-contacts">Phone number:</div>
@@ -171,6 +169,17 @@
 <div class="footer">
     <div class="footer-text">Contact Lights &nbsp; &#9679; &nbsp; 2018</div>
 </div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 <script src="https://player.vimeo.com/api/player.js"></script>
 <script src="scripts/script.js"></script>
