@@ -357,22 +357,57 @@ div.desc {
 
 
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px) and (max-width: 414px){
     .nav_bar_top {
-        height: 100px;
-    }
-
-    .nav_bar_top_logo_img {
-        display: flex;
+        width: 100%;
     }
 
     .nav_bar_top_ul {
         display: flex;
+        overflow: hidden;
     }
 
-    .container-video {
-        width: 400px;
-        /*margin: 0 auto;*/
+    .nav_bar_top_logo_img {
+        /*width: 100px;*/
+        /*height: 80px;*/
+        width: 100px;
+        height: 80px;
+        padding-left: 75%;
     }
 
+    .video {
+        width: 100%;
+        height: 100px;
+    }
+
+    .vinyl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .vinyl-img {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        width: 320px;
+        height: 275px;
+        /*width: 30%;*/
+        /*height: 20%;*/
+    }
+
+    .description {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .specs-vinyl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
