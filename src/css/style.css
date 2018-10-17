@@ -27,7 +27,6 @@
 .logo-contact-lights {
     display: flex;
     justify-content: center;
-    padding-bottom: 150px;
 }
 
 body {
@@ -39,8 +38,16 @@ body {
 
 
 .topnav {
+    display: inline-block;
+    /*justify-content: center;*/
+    align-items: center;
+    width: 100%;
+    /*display: flex;*/
+    background-color: rgba(0, 0, 0, 0.8);
+    /*height: 70px;*/
+    position: fixed;
+    z-index: 999;
     overflow: hidden;
-    background-color: #333;
 }
 
 .topnav a {
@@ -68,7 +75,11 @@ body {
 }
 
 .logo-contact-lights {
-    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    /*width: 5rem;*/
+    /*padding-top: 150px;*/
 }
 
 .video {
@@ -345,7 +356,7 @@ div.desc {
     color: white;
 }
 
-@media screen and (min-width: 320px) and (max-width: 414px) {
+@media screen and (min-width: 319px) and (max-width: 414px) {
 
     .nav_bar_top {
         width: 100%;
