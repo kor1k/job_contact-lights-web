@@ -389,6 +389,7 @@ div.desc {
 
     .vinyl {
         padding-top: 3%;
+        /*display: flex;*/
         display: inline-block;
     }
 
@@ -405,6 +406,7 @@ div.desc {
 
     .description {
         display: inline-block;
+        /*display: flex;*/
         /*padding-left: 2%;*/
         padding-top: 30px;
         /*display: flex;*/
@@ -471,6 +473,9 @@ div.desc {
         height: 250px;
     }
 
+    .container {
+        width: 320px;
+    }
 }
 
 @media screen and (max-width: 600px) {
