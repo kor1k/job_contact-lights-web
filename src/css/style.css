@@ -133,6 +133,13 @@ body {
     height: 46px;
 }
 
+.links-second-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .link-items:hover {
     border-color: #ae804e;
 }
@@ -223,29 +230,6 @@ div.desc {
 .desc {
     color: #cccccc;
     font-size: 14px;
-}
-
-.gallery-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-1 {
-    width: 700px;
-    height: 500px;
-}
-
-.gallery-info {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 100px;
 }
 
 .title {
@@ -391,8 +375,12 @@ div.desc {
         padding-top: 200px;
         /*margin-top: 100px;*/
         /*display: flex;*/
-        display: inline-block;
+        /*display: inline-block;*/
+        display: flex;
+        flex-direction: column;
     }
+
+
 
     .vinyl-img {
         display: flex;
@@ -429,6 +417,20 @@ div.desc {
         align-items: center;
     }
 
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .links-second-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     /*.tabs__caption__centered {*/
     /*display: flex;*/
     /*flex-direction: column;*/
@@ -445,16 +447,10 @@ div.desc {
         align-items: center;
     }
 
-    .gallery-block {
-        display: flex;
-        flex-direction: column;
-        /*align-items: center;*/
-        /*text-align: center;*/
-    }
-
-    .gallery-info {
-        display: flex;
-        flex-direction: column;
+    .info-about-concert {
+        /*display: inline-block;*/
+        width: 100%;
+        /*display: inline;*/
     }
 
     .title-concerts {
