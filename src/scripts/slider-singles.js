@@ -3,6 +3,7 @@ $(document).ready(function () {
     $('div.slider-button-circle').click(function (e) {
         $(this).addClass('slider-button-active').siblings().removeClass('slider-button-active');
         let indexOfThisCircle = $(this).index();
+        console.log($(this).index());
         $('.slider-wrapper').hide();
         $('.slider-wrapper').eq(indexOfThisCircle).fadeIn();
     })
