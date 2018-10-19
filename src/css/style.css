@@ -116,6 +116,7 @@ body {
 
 .links {
     display: flex;
+    /*justify-content: center;*/
     margin-top: 60px;
 }
 
@@ -134,6 +135,7 @@ body {
 }
 
 .links-second-row {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,26 +193,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 95px;
-}
-
-.gallery {
-    margin-top: 50px;
-    margin: 35px;
-    border: 1px solid #ccc;
-    width: 300px;
-    height: 300px;
-}
-
-.gallery-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 50px;
-    padding-bottom: 30px;
-    padding-top: 100px;
-    font-weight: 900;
+    padding-right: 110px;
 }
 
 div.gallery:hover {
@@ -246,8 +229,25 @@ div.desc {
     display: flex;
 }
 
+.singles {
+    /*display: flex;*/
+    /*justify-content: center;*/
+
+    padding-top: 100px;
+}
+
+.singles-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
 .concerts {
-    width: 1500px;
+    width: 80%;
     margin: 0 auto;
     /*display: inline-block;*/
 
@@ -288,12 +288,14 @@ div.desc {
     justify-content: center;
     text-align: center;
     align-items: center;
-    color: #ae804e;
+    color: #fff;
     font-size: 23px;
     padding-bottom: 130px;
 }
 
 .contacts {
+    padding-bottom: 80px;
+    padding-top: 100px;
     /*padding-top: 70px;*/
 
     /*padding-bottom: 200px;*/
@@ -380,15 +382,14 @@ div.desc {
         flex-direction: column;
     }
 
-
-
     .vinyl-img {
         display: flex;
         flex-direction: column;
-        padding-left: 2%;
+        /*padding-left: 2%;*/
+        margin-top: 2%;
         padding-top: 5%;
         width: 320px;
-        height: 275px;
+        height: 265px;
         /*width: 30%;*/
         /*height: 20%;*/
     }
@@ -408,9 +409,6 @@ div.desc {
         display: inline-block;
     }
 
-    /*.tabs__caption {*/
-    /*float: left;*/
-    /*}*/
     .specs-vinyl {
         display: flex;
         flex-direction: column;
@@ -462,9 +460,11 @@ div.desc {
 
     .concert-image {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2%;
         align-items: center;
-        padding-left: 40px;
+        /*padding-left: 40px;*/
         width: 300px;
         height: 250px;
     }
