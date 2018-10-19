@@ -332,7 +332,8 @@ div.desc {
 .slider-wrapper {
     position: relative;
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
+    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -340,17 +341,21 @@ div.desc {
 }
 
 .slider-wrapper:hover .slider-up-titles {
-    z-index: 2;
+    z-index: 1;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
 }
 
 .slider-up-titles {
+    width: 100%;
     position: absolute;
     bottom: 0;
-    width: 800px;
     text-align: left;
     background-color: rgba(0,0,0,0.4);
+    opacity: 0;
     z-index: -1;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .slider-img {
@@ -368,6 +373,32 @@ div.desc {
     margin-left: 20px;
     color: white;
     font-size: 16px;
+}
+
+.slider-buttons {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.slider-button-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: magenta;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.slider-button-circle:last-of-type {
+    margin: 0;
+}
+
+.slider-button-active {
+    background-color: maroon;
 }
 
 
