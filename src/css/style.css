@@ -408,7 +408,7 @@ div.desc {
     color: white;
 }
 
-@media screen and (min-width: 319px) and (max-width: 610px) {
+@media screen and (min-width: 319px) and (max-width: 768px) {
 
     .nav_bar_top {
         width: 100%;
@@ -510,7 +510,7 @@ div.desc {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
 
     .topnav a:not(:first-child) {
         display: none;
@@ -522,7 +522,7 @@ div.desc {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
     .topnav.responsive {
         position: relative;
     }
